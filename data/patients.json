@@ -1,0 +1,47 @@
+[
+  {
+    "resourceType": "Patient",
+    "id": "PAT-1001",
+    "name": "Susan Whitfield",
+    "birthDate": "1957-09-02",
+    "phone": "07700 900187",
+    "primaryCareProvider": "Dr. R. Bhatt",
+    "notes": "Discharged 2026-09-25 after cardiac stent procedure."
+  },
+  {
+    "resourceType": "Patient",
+    "id": "PAT-1002",
+    "name": "Tunde Adeyemi",
+    "birthDate": "1974-05-19",
+    "phone": "07700 900134",
+    "primaryCareProvider": "Dr. S. Mistry",
+    "notes": "Knee replacement scheduled; pre-op checks complete."
+  },
+  {
+    "resourceType": "Patient",
+    "id": "PAT-1003",
+    "name": "Aisha Rahman",
+    "birthDate": "1991-06-27",
+    "phone": "07700 900158",
+    "primaryCareProvider": "Dr. M. Haddad",
+    "notes": "New patient; first outpatient appointment after GP referral."
+  },
+  {
+    "resourceType": "Patient",
+    "id": "PAT-1004",
+    "name": "Priya Nair",
+    "birthDate": "1985-02-11",
+    "phone": "07700 900166",
+    "primaryCareProvider": "Dr. L. Okonkwo",
+    "notes": "Physiotherapy after wrist fracture."
+  },
+  {
+    "resourceType": "Patient",
+    "id": "PAT-1005",
+    "name": "Priya Nayar",
+    "birthDate": "1969-12-30",
+    "phone": "07700 900173",
+    "primaryCareProvider": "Dr. J. Fraser",
+    "notes": "Eye clinic review pending confirmation."
+  }
+]

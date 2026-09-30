@@ -1,0 +1,37 @@
+ELMFIELD COMMUNITY HOSPITAL
+DISCHARGE SUMMARY
+
+Patient: Susan Whitfield         Hospital no.: PAT-1001
+Date of admission: 2026-09-22    Date of discharge: 2026-09-25
+Consultant: Dr. R. Bhatt, Cardiology
+
+DIAGNOSIS AT DISCHARGE
+Coronary artery disease; status post percutaneous coronary
+intervention (drug-eluting stent, LAD).
+
+HOSPITAL COURSE
+Mrs. Whitfield was admitted with exertional chest pain. Angiography
+showed a proximal LAD lesion, treated with a drug-eluting stent via
+radial access. The procedure was uncomplicated and she remained
+stable through discharge.
+
+MEDICATIONS AT DISCHARGE
+1. Aspirin 75 mg - once daily
+2. Clopidogrel 75 mg - once daily (do not miss doses)
+3. Atorvastatin 40 mg - once nightly
+4. Bisoprolol 2.5 mg - once daily
+
+FOLLOW-UP
+Cardiology clinic with Dr. Bhatt in 2 weeks (appointment to be
+scheduled). GP review within 1 month. Cardiac rehabilitation
+referral placed.
+
+RETURN TO A&E OR CALL 999 FOR
+Chest pain or pressure, shortness of breath, bleeding or swelling at
+the wrist access site, fainting.
+
+ACTIVITY
+No lifting over 5 kg for 5 days. Walking encouraged daily.
+
+SYNTHETIC EXAMPLE - fictional patient and hospital, for software
+testing only. Not medical advice.

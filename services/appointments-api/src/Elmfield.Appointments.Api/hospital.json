@@ -1,0 +1,75 @@
+{
+  "Hospital": {
+    "Scheduling": {
+      "WorkingDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "OpenTime": "09:00",
+      "CloseTime": "16:30",
+      "SlotMinutes": 30,
+      "MaxDaysAhead": 180,
+      "DuplicateWindowDays": 14
+    },
+    "Departments": [
+      {
+        "Name": "Cardiology",
+        "Location": "Outpatients Block A, Clinic 3",
+        "Provider": "Dr. R. Bhatt",
+        "Aliases": [
+          "cardiac",
+          "heart clinic"
+        ]
+      },
+      {
+        "Name": "Orthopaedics",
+        "Location": "Outpatients Block B, Clinic 4",
+        "Provider": "Dr. S. Mistry",
+        "Aliases": [
+          "orthopedics",
+          "ortho"
+        ]
+      },
+      {
+        "Name": "General Medicine",
+        "Location": "Outpatients Block A, Clinic 1",
+        "Provider": "Dr. M. Haddad",
+        "Aliases": [
+          "general clinic"
+        ]
+      },
+      {
+        "Name": "Physiotherapy",
+        "Location": "Rehabilitation Centre, Level 1",
+        "Provider": "T. Alvarez, MCSP",
+        "Aliases": [
+          "physio"
+        ]
+      },
+      {
+        "Name": "Phlebotomy (Blood Tests)",
+        "Location": "Outpatients Block A, Level 1",
+        "Provider": "Outpatient Phlebotomy",
+        "Aliases": [
+          "phlebotomy",
+          "blood test",
+          "blood tests",
+          "lab draw",
+          "lab"
+        ]
+      },
+      {
+        "Name": "Ophthalmology",
+        "Location": "Eye Clinic, Outpatients Block C",
+        "Provider": "Dr. J. Fraser",
+        "Aliases": [
+          "eye clinic",
+          "eyes"
+        ]
+      }
+    ]
+  }
+}

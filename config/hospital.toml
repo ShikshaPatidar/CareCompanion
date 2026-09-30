@@ -1,0 +1,57 @@
+# Everything hospital-specific lives here, not in code or prompts.
+
+[hospital]
+name = "Elmfield Community Hospital"
+
+[contacts]
+emergency = "999"
+urgent_advice = "NHS 111"
+crisis_line = "Samaritans on 116 123"
+ward_advice_line = "020 7946 0142"
+patient_advice_team = "020 7946 0119"
+outpatient_booking = "020 7946 0160"
+icu_line = "020 7946 0150"
+
+[scheduling]
+working_days = [1, 2, 3, 4, 5]   # ISO weekday numbers, Monday = 1
+open_time = "09:00"
+close_time = "16:30"
+slot_minutes = 30
+max_days_ahead = 180
+duplicate_window_days = 14
+
+[[departments]]
+name = "Cardiology"
+location = "Outpatients Block A, Clinic 3"
+provider = "Dr. R. Bhatt"
+aliases = ["cardiac", "heart clinic"]
+
+[[departments]]
+name = "Orthopaedics"
+location = "Outpatients Block B, Clinic 4"
+provider = "Dr. S. Mistry"
+aliases = ["orthopedics", "ortho"]
+
+[[departments]]
+name = "General Medicine"
+location = "Outpatients Block A, Clinic 1"
+provider = "Dr. M. Haddad"
+aliases = ["general clinic"]
+
+[[departments]]
+name = "Physiotherapy"
+location = "Rehabilitation Centre, Level 1"
+provider = "T. Alvarez, MCSP"
+aliases = ["physio"]
+
+[[departments]]
+name = "Phlebotomy (Blood Tests)"
+location = "Outpatients Block A, Level 1"
+provider = "Outpatient Phlebotomy"
+aliases = ["phlebotomy", "blood test", "blood tests", "lab draw", "lab"]
+
+[[departments]]
+name = "Ophthalmology"
+location = "Eye Clinic, Outpatients Block C"
+provider = "Dr. J. Fraser"
+aliases = ["eye clinic", "eyes"]

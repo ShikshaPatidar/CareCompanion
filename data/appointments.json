@@ -1,0 +1,72 @@
+[
+  {
+    "resourceType": "Appointment",
+    "appointmentId": "APT-2001",
+    "patientId": "PAT-1002",
+    "department": "Orthopaedics",
+    "provider": "Dr. S. Mistry",
+    "datetime": "2026-10-06T09:30",
+    "location": "Outpatients Block B, Clinic 4",
+    "status": "confirmed"
+  },
+  {
+    "resourceType": "Appointment",
+    "appointmentId": "APT-2002",
+    "patientId": "PAT-1001",
+    "department": "Cardiology",
+    "provider": "Dr. R. Bhatt",
+    "datetime": "2026-10-09T10:00",
+    "location": "Outpatients Block A, Clinic 3",
+    "status": "confirmed"
+  },
+  {
+    "resourceType": "Appointment",
+    "appointmentId": "APT-2003",
+    "patientId": "PAT-1003",
+    "department": "General Medicine",
+    "provider": "Dr. M. Haddad",
+    "datetime": "2026-10-14T14:15",
+    "location": "Outpatients Block A, Clinic 1",
+    "status": "confirmed"
+  },
+  {
+    "resourceType": "Appointment",
+    "appointmentId": "APT-2004",
+    "patientId": "PAT-1002",
+    "department": "Physiotherapy",
+    "provider": "T. Alvarez, MCSP",
+    "datetime": "2026-10-13T08:00",
+    "location": "Rehabilitation Centre, Level 1",
+    "status": "pending"
+  },
+  {
+    "resourceType": "Appointment",
+    "appointmentId": "APT-2005",
+    "patientId": "PAT-1003",
+    "department": "Phlebotomy (Blood Tests)",
+    "provider": "Outpatient Phlebotomy",
+    "datetime": "2026-10-14T13:30",
+    "location": "Outpatients Block A, Level 1",
+    "status": "confirmed"
+  },
+  {
+    "resourceType": "Appointment",
+    "appointmentId": "APT-2006",
+    "patientId": "PAT-1004",
+    "department": "Physiotherapy",
+    "provider": "T. Alvarez, MCSP",
+    "datetime": "2026-10-08T11:00",
+    "location": "Rehabilitation Centre, Level 1",
+    "status": "confirmed"
+  },
+  {
+    "resourceType": "Appointment",
+    "appointmentId": "APT-2007",
+    "patientId": "PAT-1005",
+    "department": "Ophthalmology",
+    "provider": "Dr. J. Fraser",
+    "datetime": "2026-10-20T15:40",
+    "location": "Eye Clinic, Outpatients Block C",
+    "status": "pending"
+  }
+]
