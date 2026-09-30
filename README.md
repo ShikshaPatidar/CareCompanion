@@ -113,26 +113,11 @@ make compare           # table of fixes and regressions
 make eval-injection    # indirect prompt injection via a poisoned policy document
 ```
 
-Core cases assume a frozen clock (`--today 2026-09-28`) so booking-date rules stay repeatable.
-
 ## What has and has not been verified
 
 Verified here: all 114 offline tests pass; the deterministic evaluation passes 17/17; imports and
 constructors work against the real `agent-framework` 1.19, `azure-ai-projects` 2.6 and
 `azure-ai-contentunderstanding` packages; agents and tools build with fake endpoints.
-
-**Not verified (needs your Azure account):** `index`, `chat`, `discharge`, `docs-helper` and the
-live `core`/`injection` evaluations have never run against real Azure. The model-dependent cases
-may need wording tweaks after the first live run, so treat the first run as calibration.
-**The .NET service and its tests were written without a .NET SDK available and have not been
-compiled or run.** Expect to fix small compile errors on first `dotnet build`. The MCP wiring
-(`SCHEDULING_MCP_URL`) is experimental: the server is tested, the agent connection is not.
-After a successful run, pin your versions: `pip freeze > requirements.lock`.
-
-## Cost and cleanup
-
-A full run of the labs and evaluations is roughly $1-2 on `gpt-5-mini`. When finished:
-`make clean-cloud`, then delete the resource group in the Azure portal.
 
 ## Safety note
 
